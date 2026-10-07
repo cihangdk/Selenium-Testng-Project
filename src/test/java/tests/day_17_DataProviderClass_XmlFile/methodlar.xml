@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="methodlar">
+        <classes>
+            <class name="tests.day14_Notasyonlar.C01_Notasyonlar">
+                <methods>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="tests.day14_Notasyonlar.C02_BeforeGroup">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="tests.day14_Notasyonlar.C03_Priority">
+                <methods>
+                    <include name="setUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Classları Calistirma">
+        <classes>
+            <class name="tests.day14_Notasyonlar.C03_Priority"/>
+            <class name="tests.day15_DependsOnMethods_softAssert_DriverClass.C02_softAssert"/>
+            <class name="tests.day16_POM_DataProvider.C05_DataProvider"/>
+        </classes>
+    </test>
+</suite>
+<!-- X ml file ile projemızdeki istediğimiz testleri bir suite altında çalıştırabiliriz. Xml file'i
+kısa yoldan oluşturmak için öncelikle File>settings>plugins>marketplace bölümüne XML yazdığımızda
+Cerate TestNG XMl plugini çıkacaktır. bu plugini projemıze yuklerız bu işlemden sonra herhangı
+bır class uzerınde sag clıck yaptıgımızda en alt kısımlarda Cerate TestNG XMl seçeneğinin çıktığını
+görürüz ve seçtikten sonra tekrar  File>ReloadAllFromDisc seçeneğini seçip xml file ın oluştugunu
+görürüz.
+   Yukarıdaki düzende istediğimiz classları bir suite altında çalıştırabiliriz.
+-->
