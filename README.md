@@ -33,4 +33,4 @@ Bu dosya kişisel bilgiler içerebileceği için repo'ya eklenmemiştir. Kendi d
 
     browser=chrome
     amazonUrl=https://www.amazon.com
-    bestBuyUrl=https://www.bestbuy.com
+    bestBuyUrl=https://www.bestbuy.comBu satir yeni-kol kolunda eklendi
